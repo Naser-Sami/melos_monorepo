@@ -1,0 +1,15 @@
+name: melos_monorepo
+publish_to: none
+
+environment:
+  sdk: ^3.8.1
+
+dev_dependencies:
+  melos: ^6.3.3
+
+workspace:
+  - apps/client
+  - apps/admin
+  - packages/core
+  - packages/theme
+  - packages/ui_kit

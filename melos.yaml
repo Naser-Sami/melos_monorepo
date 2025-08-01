@@ -1,0 +1,16 @@
+name: melos_monorepo
+
+packages:
+  - "apps/*"
+  - "packages/*"
+
+scripts:
+
+  bootstrap:
+    exec: flutter pub get
+
+  analyze:
+    exec: dart analyze .
+
+  test:
+    exec: flutter test
