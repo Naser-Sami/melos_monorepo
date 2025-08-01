@@ -18,6 +18,11 @@ dependencies:
   flutter:
     sdk: flutter
 
+  # Add your package's dependencies here.
+
+  # Liquid Glass UI Kit
+  liquid_glass_renderer: ^0.1.1-dev.10
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
