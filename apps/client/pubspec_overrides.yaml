@@ -1,4 +1,8 @@
-# melos_managed_dependency_overrides: ui_kit
+# melos_managed_dependency_overrides: core,theme,ui_kit
 dependency_overrides:
+  core:
+    path: ../../packages/core
+  theme:
+    path: ../../packages/theme
   ui_kit:
     path: ../../packages/ui_kit

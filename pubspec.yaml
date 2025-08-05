@@ -6,10 +6,3 @@ environment:
 
 dev_dependencies:
   melos: ^6.3.3
-
-workspace:
-  - apps/client
-  - apps/admin
-  - packages/core
-  - packages/theme
-  - packages/ui_kit

@@ -1,7 +1,5 @@
 name: admin
 
-resolution: workspace
-
 description: "A new Flutter project."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -42,16 +40,13 @@ dependencies:
   # MELOS PACKAGES 
 
   # THEME
-  theme:
-    path: ../../packages/theme
+  theme: any
 
   # CORE 
-  core:
-    path: ../../packages/core
+  core: any
 
   # UI-KIT
-  ui_kit:
-    path: ../../packages/ui_kit
+  ui_kit: any
 
   # END MELOS PACKAGES 
   ########################################################

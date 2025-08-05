@@ -1,8 +1,8 @@
 name: melos_monorepo
 
 packages:
-  - "apps/*"
-  - "packages/*"
+  - packages/**
+  - apps/**
 
 scripts:
 
